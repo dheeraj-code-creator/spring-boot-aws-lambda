@@ -6,12 +6,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.3.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
-    <groupId>com.javatechie</groupId>
-    <artifactId>springboot-aws-lambda</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>springboot-aws-lambda-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-aws-lambda</name>
+    <name>springboot-aws-lambda-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -39,11 +39,6 @@
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-lambda-java-core</artifactId>
             <version>1.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -101,7 +96,6 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>springboot-aws-lambda</finalName>
     </build>
 
 </project>
